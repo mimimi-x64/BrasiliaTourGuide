@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_hotel_black_24dp"
+            android:title="@string/hoteis" />
+        <item
+            android:id="@+id/nav_passeio"
+            android:icon="@drawable/ic_directions_bike_black_24dp"
+            android:title="@string/passeios" />
+        <item
+            android:id="@+id/nav_restaurant"
+            android:icon="@drawable/ic_restaurant_menu_black_24dp"
+            android:title="@string/restaurantes" />
+        <item
+            android:id="@+id/nav_biblioteca"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="@string/bibliotecas" />
+        <item
+            android:id="@+id/nav_hospital"
+            android:icon="@drawable/ic_local_hospital_black_24dp"
+            android:title="@string/hospitais" />
+    </group>
+
+</menu>

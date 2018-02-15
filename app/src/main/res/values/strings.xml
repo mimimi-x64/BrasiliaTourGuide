@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Brasilia Tour Guide</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hoteis">Hotéis</string>
+    <string name="passeios">Passeios</string>
+    <string name="restaurantes">Restaurantes</string>
+    <string name="bibliotecas">Bibliotecas</string>
+    <string name="hospitais">Hospitais</string>
+    <string name="hotel_1">Hotel Bom</string>
+    <string name="praça_1">Praça da Praia</string>
+    <string name="hotel_2">Hotel 5 Stars</string>
+    <string name="praça_2">Praça da Sé</string>
+    <string name="biblio_1">Biblioteca Nacional</string>
+    <string name="biblio_2">Biblioteca República</string>
+    <string name="local_1">SQS 109 - BL 12</string>
+    <string name="local_2">SQS 129 - BL 65</string>
+    <string name="hosp_1">Hospital de Base</string>
+    <string name="hosp_2">Hospital Central</string>
+    <string name="passeio_1">Pontão</string>
+    <string name="passeio_2">Planalto Central</string>
+    <string name="restaurant_1">Restaurant Top</string>
+    <string name="restaurant_2">Restaurante Fome 0</string>
+</resources>
