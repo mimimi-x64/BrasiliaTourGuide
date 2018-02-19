@@ -18,6 +18,9 @@ import android.view.MenuItem;
 public class DrawActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
+    FragmentTransaction fragmentTransaction;
+    Fragment fragment;
+
     @Override
     protected void onCreate( Bundle savedInstanceState ) {
         super.onCreate(savedInstanceState);
@@ -42,6 +45,10 @@ public class DrawActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+
+        fragmentTransaction = getFragmentManager().beginTransaction();
+        fragmentTransaction.add(R.id.container_frame, new HospitaisFragment());
+        fragmentTransaction.commit();
     }
 
     @Override
@@ -61,7 +68,7 @@ public class DrawActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId( );
 
-        Fragment fragment = null;
+       fragment = null;
 
         switch (id) {
             case R.id.nav_hotel:
@@ -82,7 +89,7 @@ public class DrawActivity extends AppCompatActivity
         }
 
         if (fragment != null){
-            FragmentTransaction fragmentTransaction = getFragmentManager().beginTransaction();
+            fragmentTransaction = getFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.container_frame, fragment);
             fragmentTransaction.commit();
         }

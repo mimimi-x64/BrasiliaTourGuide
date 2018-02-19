@@ -26,45 +26,45 @@ public class RestaurantFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         /** Create a list */
-        ArrayList<GuideList> restaurants = new ArrayList <>();
+        ArrayList<LocalList> restaurants = new ArrayList <>();
 
         /** Fill the list */
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
-        restaurants.add(new GuideList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
-        restaurants.add(new GuideList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
+        restaurants.add(new LocalList(R.drawable.ic_restaurant_menu, getString(R.string.restaurant_1), getString(R.string.local_1)));
+        restaurants.add(new LocalList(R.drawable.ic_room_service, getString(R.string.restaurant_2), getString(R.string.local_2)));
 
 
         /** Set Adapter */

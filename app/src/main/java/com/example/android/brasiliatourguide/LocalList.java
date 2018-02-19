@@ -4,29 +4,24 @@ package com.example.android.brasiliatourguide;
  * Created by phartmann on 13/02/2018.
  */
 
-public class GuideList {
+public class LocalList {
 
     /** Encapsulation */
-    private int ImageItem;
+    private int imageItem;
     private String titleItem;
     private String localItem;
 
     /** Constructors */
-    public GuideList( String titleItem, String localItem ) {
-        this.titleItem = titleItem;
-        this.localItem = localItem;
-    }
+    public LocalList( int imageItem, String titleItem, String localItem ) {
 
-    public GuideList( int imageItem, String titleItem, String localItem ) {
-
-        ImageItem = imageItem;
+        this.imageItem = imageItem;
         this.titleItem = titleItem;
         this.localItem = localItem;
     }
 
     /** Getters */
     public int getImageItem() {
-        return ImageItem;
+        return imageItem;
     }
 
     public String getTitleItem() {

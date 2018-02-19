@@ -25,47 +25,47 @@ public class BibliotecasFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         /** Create a list */
-        ArrayList<GuideList> bibliotecas = new ArrayList <>();
+        ArrayList<LocalList> bibliotecas = new ArrayList <>();
 
         /** Fill the list */
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
-        bibliotecas.add(new GuideList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
-        bibliotecas.add(new GuideList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
+        bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
+        bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
 
 
 

@@ -28,43 +28,43 @@ public class PasseiosFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.list, container, false);
 
         /** Create a list */
-        ArrayList<GuideList> passeios = new ArrayList <>();
+        ArrayList<LocalList> passeios = new ArrayList <>();
 
         /** Fill the list */
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
-        passeios.add(new GuideList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
-        passeios.add(new GuideList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
+        passeios.add(new LocalList(R.drawable.ic_pool, getString(R.string.passeio_1), getString(R.string.local_1)));
+        passeios.add(new LocalList(R.drawable.ic_beach_access, getString(R.string.passeio_2), getString(R.string.local_2)));
 
 
 

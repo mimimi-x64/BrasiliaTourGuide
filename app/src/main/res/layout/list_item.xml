@@ -7,9 +7,9 @@
 
     <ImageView
         android:id="@+id/image_list"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginLeft="16dp"
+        android:layout_width="@dimen/width"
+        android:layout_height="@dimen/height"
+        android:layout_marginLeft="@dimen/marginLeft"
         android:scaleType="centerCrop" />
 
     <LinearLayout

@@ -16,10 +16,10 @@ import java.util.ArrayList;
  * Created by phartmann on 13/02/2018.
  */
 
-public class ListAdapter extends ArrayAdapter<GuideList> {
+public class ListAdapter extends ArrayAdapter<LocalList> {
 
-    public ListAdapter(Context context, ArrayList<GuideList> guideList){
-        super(context, 0, guideList);
+    public ListAdapter(Context context, ArrayList<LocalList> localList){
+        super(context, 0, localList);
 
     }
 
@@ -33,7 +33,7 @@ public class ListAdapter extends ArrayAdapter<GuideList> {
                     R.layout.list_item, parent, false);
         }
         //Get an item on given position
-        GuideList itemOnCurrentPosition = getItem(position);
+        LocalList itemOnCurrentPosition = getItem(position);
 
         //Set images and text to list on each list
         TextView titleList = (TextView) listItemView.findViewById(R.id.title_list);
