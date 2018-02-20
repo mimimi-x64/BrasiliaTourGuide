@@ -67,26 +67,6 @@ public class BibliotecasFragment extends Fragment {
         bibliotecas.add(new LocalList(R.drawable.ic_library_books, getString(R.string.biblio_1), getString(R.string.local_1)));
         bibliotecas.add(new LocalList(R.drawable.ic_local_library, getString(R.string.biblio_2), getString(R.string.local_2)));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         /** Set Adapter */
         ListAdapter bibliotecasAdapter = new ListAdapter(getActivity(), bibliotecas);
         ListView listView = rootView.findViewById(R.id.list);
